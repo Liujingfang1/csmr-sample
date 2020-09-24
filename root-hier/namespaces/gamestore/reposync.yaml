@@ -9,4 +9,3 @@ spec:
     branch: master
     dir: gamestore
     auth: none
-    
