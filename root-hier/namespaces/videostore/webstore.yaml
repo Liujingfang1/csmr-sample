@@ -1,8 +1,0 @@
-kind: WebStore
-apiVersion: marketplace.com/v1
-metadata:
-  name: vidrent
-spec:
-  product: "videos"
-  employees: 10
-
