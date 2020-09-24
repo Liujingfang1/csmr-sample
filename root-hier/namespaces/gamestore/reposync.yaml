@@ -9,5 +9,4 @@ spec:
     branch: master
     dir: gamestore
     auth: none
-  sourceFormat: unstuctured
-  
+    
