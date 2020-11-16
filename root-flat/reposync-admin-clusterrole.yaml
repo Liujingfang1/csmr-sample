@@ -7,7 +7,7 @@ rules:
   resources: ["reposyncs"]
   verbs:
   - "*"
-- apiGroup: ["*"]
+- apiGroups: ["*"]
   resources: ["*"]
   verbs:
   - "*"
