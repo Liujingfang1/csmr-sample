@@ -1,14 +1,14 @@
-kind: RoleBinding
-# Add RBAC escalation prevention
-apiVersion: rbac.authorization.k8s.io/v1
-metadata:
-  name: operator
-  namespace: bookstore
-subjects:
-- kind: User
-  name: jingfangliu@google.com
-  apiGroup: rbac.authorization.k8s.io
-roleRef:
-  kind: ClusterRole
-  name: reposync-admin
-  apiGroup: rbac.authorization.k8s.io
+# ROOT_REPO/namespaces/NAMESPACE/sync-rolebinding.yaml
+ kind: RoleBinding
+ apiVersion: rbac.authorization.k8s.io/v1
+ metadata:
+   name: syncs-repo
+   namespace: bookstore
+ subjects:
+ - kind: ServiceAccount
+   name: ns-reconciler-bookstore
+   namespace: config-management-system
+ roleRef:
+   kind: ClusterRole
+   name: reposyn-admin
+   apiGroup: rbac.authorization.k8s.io
