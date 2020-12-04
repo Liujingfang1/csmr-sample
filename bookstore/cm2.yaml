@@ -6,11 +6,3 @@ metadata:
 data:
   random: value
 
----
-apiVersion: myapp.io/v1
-kind: MyType
-metadata:
-  name: foo
-  namespace: bookstore
-spec:
-  foo: bar
