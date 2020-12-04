@@ -1,1 +1,15 @@
-
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm2
+  namespace: bookstore
+data:
+- foo: bar
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm3
+  namespace: bookstore
+data:
+  foo: bar
