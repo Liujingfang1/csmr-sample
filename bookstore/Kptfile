@@ -1,0 +1,8 @@
+apiVersion: kpt.dev/v1alpha1
+kind: Kptfile
+metadata:
+    name: bookstore-package
+inventory:
+  namespace: default
+  name: bookstore-pkg
+  inventoryID: bookstore-pkg-12390573@#
