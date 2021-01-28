@@ -6,4 +6,5 @@ metadata:
 data:
   foo: bar
   a: BBB
+  b: CCCCCCC
   
