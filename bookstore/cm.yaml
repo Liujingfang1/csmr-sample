@@ -7,4 +7,5 @@ data:
   foo: bar
   a: BBB
   b: CCCCCCC
+  bookstore: namespace
   
