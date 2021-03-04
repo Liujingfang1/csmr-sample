@@ -5,4 +5,4 @@ metadata:
 inventory:
   namespace: bookstore
   name: bookstore-pkg
-  inventoryID: bookstore-pkg-12390573@#
+  inventoryID: bookstore-pkg-123905700
