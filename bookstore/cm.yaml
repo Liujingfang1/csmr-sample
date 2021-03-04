@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: cm
+  name: cm-2
   namespace: bookstore
 data:
   foo: bar
