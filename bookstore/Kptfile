@@ -3,6 +3,6 @@ kind: Kptfile
 metadata:
     name: bookstore-package
 inventory:
-  namespace: default
+  namespace: bookstore
   name: bookstore-pkg
   inventoryID: bookstore-pkg-12390573@#
