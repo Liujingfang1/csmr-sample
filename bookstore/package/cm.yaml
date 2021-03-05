@@ -4,8 +4,5 @@ metadata:
   name: cm-2
   namespace: bookstore
 data:
-  foo: bar
-  a: BBB
-  b: CCCCCCC
   bookstore: namespace
   
