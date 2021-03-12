@@ -8,7 +8,7 @@ kind: Secret
 metadata:
   name: secret-sa-sample
   namespace: foo
-type: kubernetes.io/service-account-token
+#type: kubernetes.io/service-account-token
 data:
   # You can include additional key value pairs as you do with Opaque Secrets
   extra: YmFyCg==
