@@ -1,8 +1,8 @@
-kind: Anvil
-apiVersion: acme.com/v2
-metadata:
-  name: heavy
-  annotations:
-    client.lifecycle.config.k8s.io/mutation: ignore
-spec:
-  lbs: 100
+#kind: Anvil
+#apiVersion: acme.com/v2
+#metadata:
+#  name: heavy
+#  annotations:
+#    client.lifecycle.config.k8s.io/mutation: ignore
+#spec:
+#  lbs: 100
