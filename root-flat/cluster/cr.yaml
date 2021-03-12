@@ -1,0 +1,6 @@
+kind: Anvil
+apiVersion: acme.com/v2
+metadata:
+  name: heavy
+spec:
+  lbs: 100
