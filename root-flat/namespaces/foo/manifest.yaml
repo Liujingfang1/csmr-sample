@@ -5,13 +5,13 @@ metadata:
   labels:
     foo: bar
 ---
-apiVersion: v1
-kind: Secret
-metadata:
-  name: secret-sb
-  namespace: foo
-  annotations:
-    configmanagement.gke.io/managed: disabled
-data:
-  # You can include additional key value pairs as you do with Opaque Secrets
-  extra: YmFyCg==  
+#apiVersion: v1
+#kind: Secret
+#metadata:
+#  name: secret-sb
+#  namespace: foo
+#  annotations:
+#    configmanagement.gke.io/managed: disabled
+#data:
+#  # You can include additional key value pairs as you do with Opaque Secrets
+#  extra: YmFyCg==  
