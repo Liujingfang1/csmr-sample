@@ -11,7 +11,7 @@ metadata:
   name: secret-sb
   namespace: foo
   annotations:
-    configmanagement.gke.io/disabled: "true"
+    configmanagement.gke.io/managed: disabled
 data:
   # You can include additional key value pairs as you do with Opaque Secrets
   extra: YmFyCg==  
