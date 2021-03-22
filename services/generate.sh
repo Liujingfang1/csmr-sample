@@ -6,7 +6,7 @@ do
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-service_$num
+  name: my-service-$num
   namespace: ns-$num
 spec:
   selector:

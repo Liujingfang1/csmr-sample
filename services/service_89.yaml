@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-service_89
+  name: my-service-89
   namespace: ns-89
 spec:
   selector:

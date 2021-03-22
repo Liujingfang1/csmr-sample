@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-service_25
+  name: my-service-25
   namespace: ns-25
 spec:
   selector:
