@@ -8,7 +8,7 @@ metadata:
 spec:
   description: "BigQuery Sample Table"
   datasetRef:
-    name: bigquerytabledep
+    name: bigquerytabledep-72
   friendlyName: bigquerytable-sample
   externalDataConfiguration:
     autodetect: true

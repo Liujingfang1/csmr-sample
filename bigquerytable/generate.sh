@@ -13,7 +13,7 @@ metadata:
 spec:
   description: "BigQuery Sample Table"
   datasetRef:
-    name: bigquerytabledep
+    name: bigquerytabledep-$num
   friendlyName: bigquerytable-sample
   externalDataConfiguration:
     autodetect: true

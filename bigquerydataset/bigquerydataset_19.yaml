@@ -1,0 +1,6 @@
+apiVersion: bigquery.cnrm.cloud.google.com/v1beta1
+kind: BigQueryDataset
+metadata:
+  name: bigquerytabledep-19
+spec:
+  friendlyName: bigquerytable-dep
