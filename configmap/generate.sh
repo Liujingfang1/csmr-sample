@@ -8,7 +8,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: configmap-$num
-  namespace: ns-$nm
+  namespace: default
 data:
   foo: bar
   key: value-$num
