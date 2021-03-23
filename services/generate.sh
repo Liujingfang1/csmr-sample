@@ -7,7 +7,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: my-service-$num
-  namespace: ns-$num
+  namespace: default
 spec:
   selector:
     app: MyApp

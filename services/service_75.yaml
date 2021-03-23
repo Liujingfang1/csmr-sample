@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: my-service-75
-  namespace: ns-75
+  namespace: default
 spec:
   selector:
     app: MyApp

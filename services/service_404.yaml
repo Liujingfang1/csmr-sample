@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: my-service-404
-  namespace: ns-404
+  namespace: default
 spec:
   selector:
     app: MyApp
