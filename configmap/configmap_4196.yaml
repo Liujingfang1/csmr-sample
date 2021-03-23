@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: configmap-4196
-  namespace: ns-4196
-data:
-  foo: bar
-  key: value-4196

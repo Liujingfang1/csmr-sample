@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: configmap-2708
-  namespace: ns-2708
-data:
-  foo: bar
-  key: value-2708

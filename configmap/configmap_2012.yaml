@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: configmap-2012
-  namespace: ns-2012
-data:
-  foo: bar
-  key: value-2012

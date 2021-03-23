@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: configmap-4013
-  namespace: ns-4013
-data:
-  foo: bar
-  key: value-4013

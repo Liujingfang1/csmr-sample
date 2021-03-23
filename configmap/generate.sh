@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for num in {1..5000}
+for num in {1..2000}
 do
   cat > configmap_$num.yaml <<EOF
 apiVersion: v1
