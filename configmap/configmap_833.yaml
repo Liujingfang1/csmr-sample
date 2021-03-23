@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-833
+  namespace: ns-833
+data:
+  foo: bar
+  key: value-833

@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-553
+  namespace: ns-553
+data:
+  foo: bar
+  key: value-553

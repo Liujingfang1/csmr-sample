@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-185
+  namespace: ns-185
+data:
+  foo: bar
+  key: value-185

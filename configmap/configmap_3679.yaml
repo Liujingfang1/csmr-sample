@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-3679
+  namespace: ns-3679
+data:
+  foo: bar
+  key: value-3679

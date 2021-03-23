@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-265
+  namespace: ns-265
+data:
+  foo: bar
+  key: value-265

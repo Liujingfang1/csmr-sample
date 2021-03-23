@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for num in {1..100}
+for num in {1..500}
 do
   cat > service_$num.yaml <<EOF
 apiVersion: v1
