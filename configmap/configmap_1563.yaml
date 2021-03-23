@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: configmap-1563
-  namespace: ns-1563
+  namespace: ns-390
 data:
   foo: bar
   key: value-1563
