@@ -1,0 +1,6 @@
+# manifests/namespace-cert-manager.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+ name: cert-manager
+

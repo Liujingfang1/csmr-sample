@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: configmap-1705
-  namespace: default
-data:
-  foo: bar
-  key: value-1705

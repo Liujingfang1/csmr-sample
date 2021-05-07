@@ -1,8 +1,0 @@
-apiVersion: kpt.dev/v1alpha1
-kind: Kptfile
-metadata:
-    name: bookstore-package
-inventory:
-  namespace: bookstore
-  name: bookstore-pkg
-  inventoryID: bookstore-pkg-123905700
