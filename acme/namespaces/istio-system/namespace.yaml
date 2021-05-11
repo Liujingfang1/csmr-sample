@@ -3,6 +3,6 @@ kind: Namespace
 metadata:
   name: istio-system
   labels:
-    istio: "system"
+    istio: system
   annotations:
     foo: barbar
