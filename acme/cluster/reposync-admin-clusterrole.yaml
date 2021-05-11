@@ -1,0 +1,9 @@
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: reposync-admin
+rules:
+- apiGroups: ["configsync.gke.io"]
+  resources: ["reposyncs"]
+  verbs:
+  - "*"
