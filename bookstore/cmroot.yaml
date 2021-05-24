@@ -1,9 +1,9 @@
-# apiVersion: v1
-# kind: ConfigMap
-# metadata:
-#   name: cm-toplevel
-#   namespace: bookstore
-# data:
-#   dir: root
-#   ns: bookstore
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm-bookstore
+  namespace: bookstore
+data:
+  dir: root
+  ns: bookstore
 
